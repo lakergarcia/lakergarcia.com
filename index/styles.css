@@ -1,0 +1,84 @@
+body {
+    background: rgb(69,69,70);
+    background: linear-gradient(180deg, rgba(69,69,70,1) 0%, rgba(0,0,0,1) 100%);
+    margin-bottom: 100%;
+}
+
+h1{
+    color: rgb(255,255,255) ;
+    text-align: center;
+}
+
+p{
+    color: rgb(255,255,255) ;
+    text-align: center;
+}
+
+.personal{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    margin: 25px;
+    margin-top: 70px; 
+}
+
+.resume{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.podcast{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    margin: 25px;
+    margin-top: 85px;   
+}
+
+.twitter{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.github{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.newsletter{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
