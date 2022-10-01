@@ -37,6 +37,46 @@ p{
 .podcast{
     color: rgb(255,255,255) ;
     text-align: center;
+    margin: 25px;
+    margin-top: 70px; 
+}
+
+.spotify{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.apple{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.google{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    border: 2px solid rgb(255,255,255);
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.patreon{
+    color: rgb(255,255,255) ;
+    text-align: center;
     border: 2px solid rgb(255,255,255);
     border-radius: 15px;
     margin-left: 80px;
