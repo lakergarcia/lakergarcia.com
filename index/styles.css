@@ -29,7 +29,6 @@ img {
 .personal{
     color: rgb(255,255,255) ;
     text-align: center;
-    margin: 25px;
     margin-top: 70px;
     
 }
@@ -52,14 +51,12 @@ font-size: 20px;
 .podcast{
     color: rgb(255,255,255) ;
     text-align: center;
-    margin: 25px;
     margin-top: 70px; 
 }
 
 .social{
     color: rgb(255,255,255) ;
     text-align: center;
-    margin: 25px;
     margin-top: 85px;   
 }
 
@@ -97,4 +94,5 @@ footer{
     color: rgb(255,255,255) ;
     text-align: center;
     margin: 50px 50px;
+    font-size: x-small;
 }
