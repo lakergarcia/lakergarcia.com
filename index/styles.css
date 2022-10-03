@@ -1,6 +1,7 @@
 body {
     background: rgb(69,69,70);
-    background: linear-gradient(180deg, rgba(69,69,70,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, #ff005e 0%, #a1008c 100%);
+    font-family:  'Bebas Neue', cursive;;
 }
 
 h1{
@@ -19,9 +20,9 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     width: 60%;
 }
+
 
 .personal{
     color: rgb(255,255,255) ;
@@ -37,11 +38,13 @@ img {
     border: 2px solid rgb(255,255,255);
     border-radius: 15px;
     margin: 10px 80px;
-    display: flex;
-    justify-content: center;
     background-color: rgb(0, 0, 0);
-    width: 60%;
-    max-width: 60%;
+}
+
+.resume-link{
+color: rgb(255,255,255);
+text-decoration: none;
+font-size: 20px;
 }
 
 .podcast{
@@ -63,10 +66,9 @@ img {
     text-align: center;
     border: 2px solid rgb(255,255,255);
     border-radius: 15px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 80px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 .github{
@@ -74,10 +76,9 @@ img {
     text-align: center;
     border: 2px solid rgb(255,255,255);
     border-radius: 15px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 80px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 .newsletter{
@@ -85,10 +86,9 @@ img {
     text-align: center;
     border: 2px solid rgb(255,255,255);
     border-radius: 15px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 80px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 footer{
