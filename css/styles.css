@@ -87,7 +87,6 @@ font-size: 20px;
     border-radius: 15px;
     margin: 10px 120px;
     background-color: rgb(255,255,255);
-    font-size: 20px;
 }
 
 .newsletter-link{
@@ -129,7 +128,6 @@ font-size: 20px;
     width: 70px;
     margin: auto;
     padding: auto;
-    /* border: 2px solid rgb(255,255,255); */
 }
 
 footer{
@@ -139,81 +137,95 @@ footer{
     font-size: x-small;
 }
 
-/* area button test - start*/
+@media only screen and (max-width: 375px){
 
-.btn:link,
-.btn:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 15px 40px;
-    display: inline-block;
-    border-radius: 100px;
-    transition: all .2s;
-    position: absolute;
-}
+    /* Responsive Mobile: x-small screen */
 
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn-white {
-    background-color: #fff;
-    color: #777;
-}
-
-.btn::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
-}
-
-.btn-white::after {
-    background-color: #fff;
-}
-
-.btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-}
-
-.btn-animated {
-    animation: moveInBottom 5s ease-out;
-    animation-fill-mode: backwards;
-}
-
-@keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
+    .newsletter, .resume{
+        width: 50%;
+        position: relative;
+        right: 15%;
+        text-align: center;
     }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
+    .img-spotify, .img-apple-podcast, .img-google-podcast, .img-patreon {
+        width: 70%;
     }
+
+    footer{
+        font-size: small;
+    }
+
 }
 
-.text-box{
-    position: relative;
-    /* left: -50px; */
+@media only screen and (max-width: 375px){
+
+    /* Mobile: small screen */
+
+    .newsletter, .resume{
+        width: 50%;
+        position: relative;
+        right: 5%;
+    }
+
+    .img-spotify, .img-apple-podcast, .img-google-podcast, .img-patreon {
+        width: 70%;
+    }
+
+    footer{
+        font-size: small;
+    }
+
 }
 
-.text-box-2{
-    position: relative;
-    /* left: -50px;
-    top: 50px; */
+@media only screen and (max-width: 428px){
+
+/* Responsive mobile: medium screen */
+
+    .newsletter, .resume{
+        width: 60%;
+        position: relative;
+        right: 10%;
+    }
+
+    .img-spotify, .img-apple-podcast, .img-google-podcast, .img-patreon {
+        width: 70%;
+    }
+
+    footer{
+        font-size: small;
+    }
+
 }
-/* area button test - end */
+
+@media only screen and (max-width: 768px){
+
+    /* Responsive tablet: small screen */
+
+        h1{
+            font-size: 60pt;
+        }
+    
+        .head-p{
+            font-size: 25pt;
+        }
+    
+        .newsletter, .resume{
+            width: 45%;
+            position: relative;
+            left: 10%;
+        }
+    
+        .img-spotify, .img-apple-podcast, .img-google-podcast, .img-patreon {
+            width: 55%;
+        }
+
+        .personal, .podcast, .social{
+            font-size: xx-large;
+        }
+    
+        footer{
+            font-size: large;
+        }
+    
+    }
