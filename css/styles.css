@@ -5,22 +5,24 @@ body {
     max-width: 1920px;
 }
 
+
 h1{
     color: rgb(255,255,255) ;
     text-align: center;
     font-size: 60px;
 }
 
+h2{
+    color: rgb(255,255,255) ;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+
 p{
     color: rgb(255,255,255) ;
     text-align: center;
 }
-
-.head-p{
-    position: relative;
-    top: -50px;
-}
-
 
 .img-spotify{
     border: 1px;
@@ -139,33 +141,22 @@ footer{
 
 @media only screen and (max-width: 375px){
 
-    /* Responsive Mobile: x-small screen */
+    /* Mobile: small screen */
 
-    .newsletter, .resume{
+
+    .newsletter{
+        margin: auto;
         width: 50%;
         position: relative;
         right: 15%;
-        text-align: center;
     }
 
-    .img-spotify, .img-apple-podcast, .img-google-podcast, .img-patreon {
-        width: 70%;
-    }
-
-    footer{
-        font-size: small;
-    }
-
-}
-
-@media only screen and (max-width: 375px){
-
-    /* Mobile: small screen */
-
-    .newsletter, .resume{
+    .resume{
+        margin: auto;
         width: 50%;
         position: relative;
-        right: 5%;
+        top: 50%;
+        right: 50%;
     }
 
     .img-spotify, .img-apple-podcast, .img-google-podcast, .img-patreon {
