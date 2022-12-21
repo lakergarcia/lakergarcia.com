@@ -5,23 +5,40 @@ body {
     max-width: 1920px;
 }
 
-
 h1{
     color: rgb(255,255,255) ;
     text-align: center;
     font-size: 60px;
 }
 
+
 h2{
     color: rgb(255,255,255) ;
     text-align: center;
-    position: relative;
-    bottom: 70px;
+}
+
+h3{
+    font-size: 40px;
 }
 
 p{
     color: rgb(255,255,255) ;
     text-align: center;
+}
+
+button{
+    font-family:   'Bebas Neue', cursive;
+    background-color: rgb(255,255,255);
+    border-radius: 15px;
+    border: 2px solid rgb(255,255,255);
+    width: 50%;
+    margin: 5px auto;
+}
+
+.personal-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .img-spotify{
