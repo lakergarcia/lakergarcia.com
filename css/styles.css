@@ -2,7 +2,7 @@ body {
     background: rgb(69,69,70);
     background: linear-gradient(180deg, #ff005e 0%, #a1008c 100%);
     font-family:  'Bebas Neue', cursive;
-    max-width: 1920px;
+    max-width: 1440px;
 }
 
 h1{
@@ -25,6 +25,7 @@ h2{
 
 h3{
     font-size: 40px;
+    margin-bottom: 10px;
 }
 
 p{
@@ -130,30 +131,23 @@ font-size: 20px;
 .social{
     color: rgb(255,255,255) ;
     text-align: center;
-    margin-top: 85px;   
+    margin-top: 85px;
 }
 
 .social-section{
     display: flex;
     justify-content: center;
     margin: auto;
-}
-
-.twitter-logo{
-    width: 70px;
-    margin: auto;
-    padding: auto;
-    /* border: 2px solid rgb(255,255,255); */
 
 }
 
-.github-logo{
-    position: relative;
-    top: 5px;
-    width: 70px;
-    margin: auto;
-    padding: auto;
+
+svg{
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
 }
+
 
 footer{
     color: rgb(255,255,255) ;
@@ -162,24 +156,34 @@ footer{
     font-size: x-small;
 }
 
-@media only screen and (max-width: 375px){
+/* Responsive */
+
+@media only screen and (min-width: 280px){
+
+    /* Galaxy fold: foldded */
+
+button{
+    width: 60%;
+}
+
+    .tittle{
+        font-size: 50px;
+    }
+
+    .text-footer{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 375px){
 
     /* Mobile: small screen */
 
 
-    .newsletter{
-        margin: auto;
-        width: 50%;
-        position: relative;
-        right: 15%;
-    }
-
-    .resume{
-        margin: auto;
-        width: 50%;
-        position: relative;
-        top: 50%;
-        right: 50%;
+    .personal-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .img-spotify, .img-apple-podcast, .img-google-podcast, .img-patreon {
@@ -192,7 +196,7 @@ footer{
 
 }
 
-@media only screen and (max-width: 428px){
+@media only screen and (min-width: 428px){
 
 /* Responsive mobile: medium screen */
 
@@ -212,7 +216,7 @@ footer{
 
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
 
     /* Responsive tablet: small screen */
 
@@ -224,10 +228,10 @@ footer{
             font-size: 25pt;
         }
     
-        .newsletter, .resume{
-            width: 45%;
-            position: relative;
-            left: 10%;
+        .personal-section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     
         .img-spotify, .img-apple-podcast, .img-google-podcast, .img-patreon {
@@ -237,9 +241,77 @@ footer{
         .personal, .podcast, .social{
             font-size: xx-large;
         }
+
+
     
         footer{
             font-size: large;
         }
     
+    }
+
+    @media only screen and (min-width: 1280px){
+
+        .img-spotify, .img-apple-podcast, .img-google-podcast, .img-patreon {
+            width: 30%;
+        }
+
+        .personal-section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        button{
+            width: 30%;
+        }
+
+        .text-footer{
+            font-size: medium;
+        }
+
+    }
+
+    @media only screen and (min-width: 1440px){
+
+        .tittle{
+            font-size: 140px;
+        }
+
+        h2{
+            font-size: 35px;
+        }
+
+        .podcast-section{
+            width: 50%;
+            display: flex;
+            position:relative;
+            flex-direction: column;
+            justify-content: center;
+            left: 25%;
+        }
+        
+        .img-spotify, .img-apple-podcast, .img-google-podcast, .img-patreon {
+            width: 50%;
+        }
+
+        .personal-section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        button{
+            width: 30%;
+
+        }
+
+        .text-footer{
+            font-size: medium;
+        }
+
+        .text-footer{
+            font-size: large;
+        }
+
     }
